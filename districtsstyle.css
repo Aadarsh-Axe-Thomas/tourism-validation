@@ -1,0 +1,312 @@
+*{
+	margin-left: 0px;
+	padding: 0px;
+}
+
+.nav-item{
+	width: 100px;
+	margin-left: 40px;
+	padding-left: 40px;
+	padding-top: 5px;
+	margin-top: 15px;
+
+}
+
+
+.navbar{
+	margin-top: 0px;
+	background: linear-gradient(0deg, rgba(185,181,255,1) 0%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.imgbg{
+	background-size: cover;
+}
+
+
+
+.header{
+	min-height: 10vh;
+	background-image:url(https://wallpaperaccess.com/full/1635205.jpg);
+	
+	background-size: cover;
+	background-position: center;
+
+    justify-content: center;
+    color: white;
+    padding: 50px 250px 350px 50px;
+    min-width: 200px;
+	font-size: 40px;
+	transition: 2s;
+
+}
+
+
+.row{
+	min-height: 509px;
+	padding-top:30px;
+	padding: auto;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	background-image: url(https://wallpapercave.com/wp/wp5943601.jpg);
+	background-repeat: repeat;
+	width:100.9%; 
+}
+
+
+
+
+.buttonClass {
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#666666;
+  border-color:#dcdcdc;
+  font-weight:bold;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  text-shadow:inset 0px 1px 0px #ffffff;
+  background:linear-gradient(#f9f9f9, #b9b5ff);
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#b9b5ff, #f9f9f9);
+}
+
+
+
+.caro{
+	padding-top: 7px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+ 	margin: auto;
+	min-width: 100px;
+	max-width: 800px;
+	min-height: 450px;
+	max-height: 700px;
+
+
+	}
+
+.swipe{
+	max-height: 450px; 
+
+
+}
+
+.sky{
+	background-image: url(https://wallpaperaccess.com/full/548869.jpg);
+}
+
+.bigwords{
+	color: white;
+	padding-top: 7px;
+	font-size: 40px;
+	text-align: center;
+}
+
+
+.dist1{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/11/Kannur_district_wise_kerala_assambly_election_2016_constituency_map.svg);
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+	min-width: 50px;
+	min-height: 100px;
+	height: 300px;
+	width: 400px;
+	margin-top: 20px;
+	text-shadow: 4px 4px 40px rgba(255,255,255,1);
+}
+
+.dist2{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Kozhikode_district_kerala_elections_2016_maps.svg/1200px-Kozhikode_district_kerala_elections_2016_maps.svg.png);
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+	min-width: 50px;
+	min-height: 100px;
+	height: 300px;
+	width: 400px;
+	text-shadow: 4px 4px 40px rgba(255,255,255,1);
+	margin-top: 20px;
+}
+
+.dist3{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Subdistricts_of_Thrissur.svg/2560px-Subdistricts_of_Thrissur.svg.png);
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+	min-width: 50px;
+	min-height: 100px;
+	height: 300px;
+	text-shadow: 4px 4px 40px rgba(255,255,255,1);
+	width: 400px;
+	margin-top: 20px;
+}
+
+.dist4{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Subdistricts_of_Malappuram_%28August_2020%29.svg/1200px-Subdistricts_of_Malappuram_%28August_2020%29.svg.png);
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+	min-width: 50px;
+	min-height: 100px;
+	text-shadow: 4px 4px 40px rgba(255,255,255,1);
+	height: 300px;
+	width: 400px;
+	margin-top: 20px;
+}
+
+.dist5{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/16/Eranakulam_district_wise_kerala_assambly_election_2016_constituency_map.svg);
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+	min-width: 50px;
+	min-height: 100px;
+	height: 300px;
+	text-shadow: 4px 4px 40px rgba(255,255,255,1);
+	width: 400px;
+	margin-top: 20px;
+}
+
+.dist6{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/91/Wayanad_district_wise_kerala_assambly_election_2016_constituency_map.svg);
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+	min-width: 50px;
+	min-height: 100px;
+	height: 300px;
+	text-shadow: 4px 4px 40px rgba(255,255,255,1);
+	width: 400px;
+	margin-top: 20px;
+}
+
+
+
+
+.dist7{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Kasaragod-map.svg/1200px-Kasaragod-map.svg.png);
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+	min-width: 50px;
+	min-height: 100px;
+	height: 300px;
+	text-shadow: 4px 4px 40px rgba(255,255,255,1);
+	width: 400px;
+	margin-top: 20px;
+}
+
+
+
+.dist8{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Palakkad_district_wise_kerala_assambly_election_2016_constituency_map.svg/1200px-Palakkad_district_wise_kerala_assambly_election_2016_constituency_map.svg.png);
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+	min-width: 50px;
+	min-height: 100px;
+	height: 300px;
+	text-shadow: 4px 4px 40px rgba(255,255,255,1);
+	width: 400px;
+	margin-top: 20px;
+}
+
+
+
+.dist9{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4e/Idukki_district_wise_kerala_assambly_election_2016_constituency_map.svg);
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+	min-width: 50px;
+	min-height: 100px;
+	height: 300px;
+	text-shadow: 4px 4px 40px rgba(255,255,255,1);
+	width: 400px;
+	margin-top: 20px;
+}
+
+
+
+.dist10{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Kottayam_district_wise_kerala_assambly_election_2016_constituency_map.svg/1280px-Kottayam_district_wise_kerala_assambly_election_2016_constituency_map.svg.png);
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+	min-width: 50px;
+	min-height: 100px;
+	height: 300px;
+	text-shadow: 4px 4px 40px rgba(255,255,255,1);
+	width: 400px;
+	margin-top: 20px;
+}
+
+
+
+.dist11{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/46/Alappuzha_district_wise_kerala_assambly_election_2016_constituency_map.svg);
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+	min-width: 50px;
+	min-height: 100px;
+	height: 300px;
+	text-shadow: 4px 4px 40px rgba(255,255,255,1);
+	width: 400px;
+	margin-top: 20px;
+}
+
+
+.dist12{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Pathanamthitta_district_wise_kerala_assambly_election_2016_constituency_map.svg/640px-Pathanamthitta_district_wise_kerala_assambly_election_2016_constituency_map.svg.png);
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+	min-width: 50px;
+	min-height: 100px;
+	height: 300px;
+	text-shadow: 4px 4px 40px rgba(255,255,255,1);
+	width: 400px;
+	margin-top: 20px;
+}
+
+
+
+.dist13{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Kollam_district_wise_kerala_assambly_election_2016_constituency_map.svg/2560px-Kollam_district_wise_kerala_assambly_election_2016_constituency_map.svg.png);
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+	min-width: 50px;
+	min-height: 100px;
+	height: 300px;
+	text-shadow: 4px 4px 40px rgba(255,255,255,1);
+	width: 400px;
+	margin-top: 20px;
+}
+
+
+
+.dist14{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Thiruvananthapuram_district_wise_kerala_assambly_election_2016_constituency_map.svg/1200px-Thiruvananthapuram_district_wise_kerala_assambly_election_2016_constituency_map.svg.png);
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+	min-width: 50px;
+	min-height: 100px;
+	height: 300px;
+	text-shadow: 4px 4px 40px rgba(255,255,255,1);
+	width: 400px;
+	margin-top: 20px;
+}
+

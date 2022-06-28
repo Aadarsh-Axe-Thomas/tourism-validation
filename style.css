@@ -1,0 +1,313 @@
+*{
+	margin-left: 0px;
+	padding: 0px;
+	font-family: trebuchet ms;
+}
+
+.nav-item{
+	width: 100px;
+	margin-left: 40px;
+	padding-left: 40px;
+	padding-top: 5px;
+	margin-top: 15px;
+
+}
+
+
+.navbar{
+	margin-top: 0px;
+	background: linear-gradient(0deg, rgba(185,181,255,1) 0%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.imgbg{
+	background-size: cover;
+}
+
+
+
+.header{
+	min-height: 10vh;
+	background-image:url(https://wallpaperaccess.com/full/1635205.jpg);
+	
+	background-size: cover;
+	background-position: center;
+
+    justify-content: center;
+    color: white;
+    padding: 50px 250px 350px 50px;
+    min-width: 200px;
+	font-size: 40px;
+	transition: 2s;
+
+}
+
+.col{
+	color: white;
+	background-image:linear-gradient(#8D39819C, #8D39819C),
+	url(https://assets.traveltriangle.com/blog/wp-content/uploads/2015/03/Sunset-at-Kovalam-Beach.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 15px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	max-width: 400px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	margin-right: 18px;
+	min-width: 350px;
+	padding: 190px 0px 0px 0px;
+}
+
+.twocol{
+	color: white;
+	background-image:linear-gradient(#EAA71799, #EAA71799),
+	url(https://assets.traveltriangle.com/blog/wp-content/uploads/2017/10/kerala-food.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 15px;
+	max-width: 400px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	margin-bottom: 50px;
+		margin-left: 20px;
+	margin-right: 18px;
+	min-width: 350px;
+	padding: 190px 0px 0px 0px;
+}
+
+
+.threecol{
+	color: white;
+	background-image:linear-gradient(#17A6EA85, #17A6EA85),
+	url(https://www.travelogyindia.com/storage/app/itinerary/515/bestof-munnar.jpeg);
+	background-position: top;
+	background-size: cover;
+	border-radius: 15px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	max-width: 400px;
+	margin-bottom: 50px;
+		margin-left: 20px;
+	margin-right: 18px;
+	min-width: 350px;
+	padding: 190px 0px 0px 0px;
+}
+
+
+
+.col:hover{
+	box-shadow: 0px 0px 70px 0px #FBAA12;
+	cursor: pointer;
+	background-image:
+	url(https://assets.traveltriangle.com/blog/wp-content/uploads/2015/03/Sunset-at-Kovalam-Beach.jpg);
+	color: rgb(0,0,0,0.7);
+	padding: 20px 0px 190px 0px;
+}
+.twocol:hover{
+	box-shadow: 0px 0px 70px 0px #009D00;
+	cursor: pointer;
+	background-image:
+	url(https://assets.traveltriangle.com/blog/wp-content/uploads/2017/10/kerala-food.jpg);
+	padding: 20px 0px 190px 0px;
+	color: rgb(206,206,256,1);
+}
+.threecol:hover{
+	box-shadow: 0px 0px 70px 0px #FE0013;
+	cursor: pointer;
+	background-image:
+	url(https://www.travelogyindia.com/storage/app/itinerary/515/bestof-munnar.jpeg);
+	padding: 20px 0px 190px 0px;
+	color: rgb(0,0,0,0.7);
+}
+
+.row{
+	min-height: 509px;
+	padding-top:30px;
+	padding: auto;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	background-image: url(https://wallpapercave.com/wp/wp5943601.jpg);
+	background-repeat: repeat;
+	width:100.9%; 
+}
+
+
+
+
+.buttonClass {
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#666666;
+  border-color:#dcdcdc;
+  font-weight:bold;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  text-shadow:inset 0px 1px 0px #ffffff;
+  background:linear-gradient(#f9f9f9, #b9b5ff);
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#b9b5ff, #f9f9f9);
+}
+
+
+
+.back{
+	margin: 0px;
+	padding-bottom: 50px; 
+	/*background-image: url(https://cdn.wallpapersafari.com/55/4/bTLK0A.png);*/
+	background-image: url(https://i.pinimg.com/736x/64/61/c7/6461c7523abec7bc306edf1312903309.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100.6%;
+	height: 110%;
+	text-align: center;
+
+}
+
+.divide{
+	height: 60px;
+}
+
+.distcard{
+	margin: auto;
+	padding: 20px;
+	min-width: 200px;
+	width: 60%;
+	display: vertical-flex;
+	box-sizing: border-box;
+	background-color: rgb(206,256,256,0.3);
+	border-radius: 20px;
+}
+
+.spotcont{
+	margin:30px 120px 480px 120px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.spot1{
+	height:250px;
+	min-width: 400px;
+	background-image: url(https://www.keralatourism.org/images/thalassery/static-banner/large/st-angelo-fort-18032020135917.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.spot2{
+	height:250px;
+	min-width: 400px;
+	background-image: url(https://live.staticflickr.com/3504/3272461595_01c8a9f74b_b.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	color: black;
+}
+
+
+.spot3{
+	height:250px;
+	min-width: 400px;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Chaliyam_Harbour%2C_Calicut.jpg/800px-Chaliyam_Harbour%2C_Calicut.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+
+.spot4{
+	height:250px;
+	min-width: 400px;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Kozhikkod_Beach%21_Early_Morning%21.jpg/1024px-Kozhikkod_Beach%21_Early_Morning%21.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	color: white;
+
+}
+
+
+.spot5{
+	height:250px;
+	min-width: 400px;
+	background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTR5BRjU1YzSR50jrlqX474LLPb-I6E5ODbLkXLoQR6_B8Wfw69ASoBmWacPMWG6hOck2JQtzoP2q51UZQ-yTZyrA);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	color: black;
+}
+
+
+.spot6{
+	height:250px;
+	min-width: 400px;
+	background-image: url(https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQeQQw-SfDQygblWWzhhQNoGu1R7qs9ZMExBKqrsPuO41gCfIWZoaOL9KybsUMUpNUEd_4Mf6bBtHiA1vtwPlYOaw);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+
+
+.spot7{
+	height:250px;
+	min-width: 400px;
+	background-image: url(https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRH9aPqrJgLfJXDE5A_sRQ69bs2xoO45IXCpwrJsTUIH5CiXyhgVQOaR02JoosnoeuAJUz5VU2cvAuRNiF3GA4WSA);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+
+.spot8{
+	height:250px;
+	min-width: 400px;
+	background-image: url(https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTzIOf1pTQqSHO3iYtFwGnVgKKXGN5GeHbTYLke8JwxwkeccubZSeDAAhhUWTo2zwqyorru0-MbJKyaRfph3QCB3w);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+
+.spot9{
+	height:250px;
+	min-width: 400px;
+	background-image: url(https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQLESn5epMv19RwSlUI7drFSBNNGzDPP2nTqCInS1_k4VnQbhyiU5cx8ZOWDtLQ8fTlxpWVwCnbXI9o0ng6alMv4w);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+
+.spot10{
+	height:250px;
+	min-width: 400px;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJn4KgQ9rdECo9yUqdMm-TflABBdej_7O2G19oNrYu_IpQSWUtrqyt1bxHOFHpVEZfevfUaXPJ1CpIUFAWsQoImA);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	color: white;
+}
