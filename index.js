@@ -67,3 +67,31 @@ function validates(){
 }
 
 
+function pass(){
+	let passwo = /^([a-zA-Z0-9]{8,})$/;
+	let password = /^([a-z0-9]){8,}$/;
+	let password2 = /^([a-zA-Z]{8,})$/;
+	let password3 = /^(?=.*[!@#$%^&*])$/;
+
+	if(passwo.test(pwd.value)!=true){
+		pwdstr.innerHTML = "password too short(and maybe dont use special characters)";
+		pwdstr.style.color = "white";
+		pwdstr.style.backgroundColor = "red";
+	}
+	else if(password.test(pwd.value)){
+		pwdstr.innerHTML = "long but need Uppercase";
+		pwdstr.style.color = "white";
+		pwdstr.style.backgroundColor = "orange";
+	}
+	else if(password2.test(pwd.value)){
+		pwdstr.innerHTML = "pretty strong now(maybe try adding digits)";
+		pwdstr.style.color = "white";
+		pwdstr.style.backgroundColor = "blue";
+	}
+	else{
+		pwdstr.innerHTML = "Maximum Security";
+		pwdstr.style.color = "white";
+		pwdstr.style.backgroundColor = "green";
+	}
+}
+
